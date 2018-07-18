@@ -27,7 +27,7 @@ body,html {
     position: absolute;
     bottom: 60px;
     font-family: 'Infinite Stroke';
-    font-size: 130px;
+    font-size: 120px;
 }
 
 .title {
@@ -45,11 +45,6 @@ body,html {
     font-size: 20px;
 }
 
-
-
-
-
-
 .footer {
     background-color: #826C7F;
     width: 100%;
@@ -58,7 +53,7 @@ body,html {
     line-height: 3em;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 } 
 
 .footer a {
@@ -73,4 +68,39 @@ body,html {
 #footer_copyright {
     text-align: right;
     padding-right:2em;
+}
+
+@media screen and ( max-width: 750px ) {
+
+    #heading {
+        position: relative;
+        color: white;
+    }
+
+    .name {
+        bottom: 60px;
+        font-family: 'Infinite Stroke';
+        font-size: 36px;
+    }
+
+    .title {
+        bottom: 40px;
+        left: 50px;
+        font-family: 'Josefin Slab';
+        font-size: 18px;
+    }
+
+    .services {
+        font-family: 'Josefin Slab';
+        font-size: 10px;
+    }
+
+    .footer a {
+        font-size: 9px;
+    }
+    
+    #footer_copyright {
+        font-size: 9px;
+    }
+    
 }
