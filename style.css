@@ -1,0 +1,76 @@
+body {
+    background-image: url("mainimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% top;
+}
+
+body,html {
+    height: 100%;
+}
+
+#overlay {
+    display: grid;
+    grid-template-rows: 1fr 50px; 
+    background-color: rgba(214,162,173, 0.7 );
+    height: 100%;
+}
+
+
+#heading {
+    position: relative;
+    padding-left: 2em;
+    color: white;
+}
+
+.name {
+    position: absolute;
+    bottom: 60px;
+    font-family: 'Infinite Stroke';
+    font-size: 130px;
+}
+
+.title {
+    position: absolute;
+    bottom: 55px;
+    left: 150px;
+    font-family: 'Josefin Slab';
+    font-size: 36px;
+}
+
+.services {
+    position: absolute;
+    bottom: 0;
+    font-family: 'Josefin Slab';
+    font-size: 20px;
+}
+
+
+
+
+
+
+.footer {
+    background-color: #826C7F;
+    width: 100%;
+    color: white;
+    font-family: 'Josefin Slab';
+    line-height: 3em;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+} 
+
+.footer a {
+    color: white;
+    padding-right: 2em;
+}
+
+#footer_social {
+    text-align: center;
+}
+
+#footer_copyright {
+    text-align: right;
+    padding-right:2em;
+}
