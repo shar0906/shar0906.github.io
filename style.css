@@ -28,6 +28,12 @@ body,html {
     bottom: 60px;
     font-family: 'Infinite Stroke';
     font-size: 120px;
+    
+    }
+
+@font-face {
+    font-family: 'Infinite Stroke';
+    src: url('Infinite_Stroke.otf');
 }
 
 .title {
